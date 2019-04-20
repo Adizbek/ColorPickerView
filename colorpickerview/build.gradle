@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply from: '../dependencies.gradle'
 apply from: '../publish.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.adizbek.colorpickerview'
 
 android {
     compileSdkVersion versions.compileSdk
